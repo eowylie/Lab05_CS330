@@ -32,7 +32,7 @@ int main() {
     // Step 4: Print the array after modification
     printf("Modified array (squared): ");
     for (int i = 0; i < size; i++) {
-        printf("%d ", *(myarr + i));  // Using pointer arithmetic to print
+        printf("%d ", *(myarr + i));  // Print each
     }
     printf("\n");
     
